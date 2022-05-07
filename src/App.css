@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  width: 90%;
+  max-width: 1000px;
+  margin: 3rem auto;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+  text-align: center;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  padding: 20px;
+}
+
+.header-wrapper {
+  text-align: end;
+  padding: 20px;
+  border-bottom: 1px solid rgb(161, 159, 159);
+}
+
+.header {
+  padding: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  /* width: 100px; */
+}
+
+.header:hover {
+  color: gray;
+  border-color: rgb(180, 177, 177);
+}
+
+.new-post-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+}
+
+.new-post-close {
+  text-align: right;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.new-post-close:hover {
+  color: gray;
+}
+
+.new-post-text {
+  padding: 10px;
+}
+
+.new-post-button {
+  width: 50px;
+  align-self: flex-end;
+  padding: 5px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-wrapper{
+  width: 40%;
+  border: 1px solid rgb(206, 205, 205);
+  box-shadow: 0px 0px 12px -2px #aba6a6;
+  margin: 20px;
+  align-self: center;
+  padding: 20px;
+}
+
+.post-body {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-header {
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.post-time {
+  text-align: left;
+  font-size: 10px;
+}
+
+.post-edit {
+  position: absolute;
+  top: -11px;
+  right: 6px;
+}
+
+.post-delete {
+  font-size: 20px;
+  position: absolute;
+  top: -15px;
+  right: -10px;
+}
+
+.post-edit:hover,
+.post-delete:hover {
+  color: gray;
+}
+
+.post-content {
+  padding: 10px;
+}
